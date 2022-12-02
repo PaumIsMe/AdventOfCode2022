@@ -11,3 +11,7 @@ def convert_to_int(arr):
         except:
             arr[idx] = None
     return arr
+
+def split_array(arr):
+    arr = [line.split(' ') for line in arr]
+    return arr
