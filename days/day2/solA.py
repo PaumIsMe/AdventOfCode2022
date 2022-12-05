@@ -1,6 +1,6 @@
 from Advent2022.helpers.parse_input import *
 
-input_arr = split_array(parse_input(2))
+input_arr = split_array(parse_input(2), ' ')
 
 print(input_arr)
 
