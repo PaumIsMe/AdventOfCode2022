@@ -19,3 +19,14 @@ def split_array(arr, c):
 def print_array(arr):
     for line in arr:
         print(line)
+
+def all_unique(str):
+    unique_check = set([])
+    
+    for char in str:
+        if char in unique_check:
+            return False
+        unique_check.add(char)
+
+    return True
+
