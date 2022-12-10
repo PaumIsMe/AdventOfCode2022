@@ -1,8 +1,6 @@
 def parse_input(day_number):
     file_path = "../../inputs/day" + str(day_number) + "/input.txt"
-    text_file = open(file_path, "r")
-    arr = text_file.read().split('\n')
-    return arr[:-1]
+    return [line.strip() for line in open(file_path)]
 
 def convert_to_int(arr):
     for idx, line in enumerate(arr):
