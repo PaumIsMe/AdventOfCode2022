@@ -53,11 +53,13 @@ def sim(n):
                 
                 break
         
+        print(height)
+        
     return height
 
 if __name__ == '__main__':
     print("Start sim...")
-    print(sim(100000))
+    print(sim(2022))
 
     print(1.933 * 1000000000000 / 100000, " seconds =")
     print(1.933 * 1000000000000 / 100000 / 60, " minutes =")
